@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data (too large for GitHub — download separately)
+data/sentiment.csv
+
+# Model files (generated after training)
+models/sentiment_model.pkl
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
