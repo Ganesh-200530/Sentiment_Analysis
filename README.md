@@ -111,7 +111,7 @@ Sentiment-Analysis-ML/
 │
 ├── app.py                       # Streamlit web application
 ├── main.py                      # Simple project runner
-├── report.tex                   # Full project report (LaTeX)
+├── report.pdf                   # Full project report (PDF)
 ├── requirements.txt             # Python dependencies
 ├── .gitignore                   # Git ignore rules
 └── README.md                    # This file
@@ -120,7 +120,7 @@ Sentiment-Analysis-ML/
 ---
 
 ## 📝 Full Report
-A detailed LaTeX report is available at [`report.tex`](report.tex) covering:
+A detailed project report is available at [`report.pdf`](report.pdf) covering:
 - Dataset description & structure
 - Preprocessing pipeline
 - TF-IDF math explanation
