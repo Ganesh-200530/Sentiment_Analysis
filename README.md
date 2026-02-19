@@ -46,20 +46,35 @@ A complete sentiment analysis system that classifies text into **Positive** or *
 
 ---
 
+## � Dataset
+The dataset is too large for GitHub (~240MB). Download it from Kaggle and place it in the `data/` folder:
+
+🔗 **Download:** [Sentiment140 - Kaggle](https://www.kaggle.com/datasets/kazanova/sentiment140)
+
+After downloading, rename the file and place it as:
+```
+data/sentiment.csv
+```
+
+---
+
 ## 🚀 Quick Start
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/Sentiment-Analysis-ML.git
-cd Sentiment-Analysis-ML
+git clone https://github.com/Ganesh-200530/Sentiment_Analysis.git
+cd Sentiment_Analysis
 ```
 
-### 2. Install dependencies
+### 2. Download the dataset
+Download from [Kaggle](https://www.kaggle.com/datasets/kazanova/sentiment140), extract, and place the CSV file as `data/sentiment.csv`.
+
+### 3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Train the model
+### 4. Train the model
 ```bash
 python src/train.py
 ```
